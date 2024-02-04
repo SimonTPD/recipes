@@ -1,0 +1,34 @@
+h1,
+h2{
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: larger;
+}
+
+h2{
+    text-align: left;
+    font-size: large;
+}
+
+h2{
+
+}
+
+p,
+li{
+    text-align: justify;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
