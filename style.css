@@ -1,3 +1,4 @@
+/*General styling of basic elements*/
 h1,
 h2{
     font-weight: bolder;
@@ -16,10 +17,6 @@ h2{
     font-size: large;
 }
 
-h2{
-
-}
-
 p,
 li{
     text-align: justify;
@@ -32,3 +29,49 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
+/*Main container*/
+.main-ctnr{
+    background-color: rgb(104, 183, 214);
+    padding: 8px;
+}
+
+/*Footer*/
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 0.67em;
+}
+
+/*Remove paragraph margin in footer*/
+div.footer p{
+    margin: 0;
+}
+
+/*right align second footer span*/
+.footer-r{
+    float: right;
+}
+
+/*Don't color visited link on footer*/
+div.footer a:visited{
+    color: white;
+}
+
+/*Remove top margin of list if following paragraph*/
+p + ul{
+    margin-top: -16px;
+}
+
+/*Remove margin at top for first paragraph and at bottom for last one*/
+.first-p{
+    margin-top: 0px;
+}
+
+.last-p{
+    margin-bottom: 0px;
+}
+
+
+
+
